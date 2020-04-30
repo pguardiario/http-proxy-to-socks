@@ -12,10 +12,12 @@ function randomElement(array) {
 
 function getProxyObject(host, port, login, password) {
   return {
+    host,
     ipaddress: host,
     port: parseInt(port, 10),
     type: 5,
-    authentication: { username: login || '', password: password || '' },
+    userId: 'lozyev86',
+    password: 'E9RVHUN3FP8CJ8ULUK6FZPIY'    
   };
 }
 
