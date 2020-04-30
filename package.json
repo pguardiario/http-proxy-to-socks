@@ -19,7 +19,7 @@
     "converting proxy"
   ],
   "bin": {
-    "hpts": "./bin/hpts.js"
+    "hpts": "./src/cli.js"
   },
   "author": "oyyd <oyydoibh@gmail.com>",
   "license": "MIT",
